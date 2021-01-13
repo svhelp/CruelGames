@@ -1,4 +1,5 @@
-﻿using Settings.Models;
+﻿using BusinessLogic.Models;
+using Settings.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;

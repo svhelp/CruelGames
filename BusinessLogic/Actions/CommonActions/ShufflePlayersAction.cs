@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BusinessLogic.Actions.PlayerActions
+namespace BusinessLogic.Actions.CommonActions
 {
-    class RenameAction
+    class ShufflePlayersAction
     {
     }
 }

@@ -2,8 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace BusinessLogic
+namespace BusinessLogic.Models
 {
+    /// <summary>
+    /// Состояние игрока.
+    /// </summary>
     public class Player
     {
         private Guid id;
@@ -15,8 +18,9 @@ namespace BusinessLogic
             Name = name;
         }
 
-        public Guid Id { 
-            get { return id; } 
+        public Guid Id
+        {
+            get { return id; }
         }
 
         public string Name { get; set; }
